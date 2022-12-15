@@ -1,0 +1,77 @@
+.sale{
+    display: grid;
+    grid-template-columns: 1fr 1fr ;
+}
+
+
+.menu{
+    border: solid 4px burlywood;
+    width: fit-content;
+    display: grid;
+    grid-template-columns: 1fr 1fr ;
+    animation-name: men;
+    animation-iteration-count: infinite;
+    animation-duration: 10s;
+}
+   
+
+.water{
+    display: grid;
+    grid-template-columns: 1fr 30%;
+    margin-left:3%;
+
+}
+h3{
+    animation-name: ligh;
+    animation-iteration-count: infinite;
+    animation-duration: 1s;
+
+}
+.fruit{
+    margin-left: 3%;
+}
+.table {
+    width:270px;
+    text-align: start;
+}
+.table tr td{
+    width: 70px;
+    padding:3px ;
+    animation-name: ligh;
+    animation-iteration-count: infinite;
+    animation-duration: 3s;
+}
+@keyframes ligh{
+    0%{color:black;}
+    25%{ color:red; }
+    50%{color:blue;}
+    75%{ color:yellow;}
+    100%{color: aqua;}
+}
+
+@keyframes men{
+    0%{color:black;}
+    25%{background-image: url("https://wallpapercave.com/wp/Iw471VJ.jpg"); color:red;border:rgb(66, 51, 153)}
+    50%{background: #e567e5; color:blue;border:red}
+    75%{background: wheat; color:yellow;border:violet}
+    100%{background-color: aqua;border:yellow}
+}
+
+
+.pay{
+    width:500px;
+    height:300px;
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+    
+}
+
+#sum,#bought,#return{
+    border:none ;
+    width: 500px;
+}
+.Spreadsheet{
+   font-weight: bold;
+}
+
+

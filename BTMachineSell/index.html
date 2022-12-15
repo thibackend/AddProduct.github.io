@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="lenh.js"></script>
+    <link rel="stylesheet" href="style2.css">
+</head>
+<body>
+
+    <h1> MÁY BÁN NƯỚC TỰ ĐÔNG</h1>
+    <div class="sale">
+        <div class="menu">
+            <div class="water">
+                <div class="water-menu">
+                    <h3>Nước ngọt</h3>
+                    <table class="table">
+                        <tr>
+                            <td>Nước suối</td>
+                            <td></td>
+                            <td>15.000</td>
+                        </tr>
+                        <tr>
+                            <td>Coca cola</td>
+                            <td></td>
+                            <td>17.000</td>
+                        </tr>
+                        <tr>
+                            <td>7 Up</td>
+                            <td></td>
+                            <td>17.000</td>
+                        </tr>
+                        <tr>
+                            <td>Pessi</td>
+                            <td></td>
+                            <td>17.000</td>
+                        </tr>
+                        <tr>
+                            <td>Cam ép</td>
+                            <td></td>
+                            <td>17.000</td>
+                        </tr>
+                        <tr>
+                            <td>Sting</td>
+                            <td></td>
+                            <td>17.000</td>
+                        </tr>
+                        <tr>
+                            <td>Bò húc</td>
+                            <td></td>
+                            <td>20.000</td>
+                        </tr>
+                    </table>
+                    <table class="table">
+                        
+                    </table>
+                </div>  
+            </div>
+            <div class="fruit">
+                <div class="fruid-menu">
+                    <h3>Trái cây</h3>
+                    <table class="table">
+                        <tr>
+                            <td>Trái cây nhỏ</td>
+                            <td></td>
+                            <td>99.000</td>
+                        </tr>
+                        <tr>
+                            <td>Trái cây lớn</td>
+                            <td></td>
+                            <td>129.000</td>
+                        </tr>
+                        <tr>
+                            <td>Bưởi</td>
+                            <td></td>
+                            <td>189.00</td>
+                        </tr>
+                    </table>
+
+                </div>
+            </div>
+        </div>
+
+        <div class="pay">
+            <!-- làm việc từ đây -->
+                <div class="pay-water">
+                    <form action="#">
+                        <h3>WATER</h3>
+                        <select name="" id="water">
+                            <option value="0">none</option>
+                            <option value="1">nước suối</option>
+                            <option value="2">Coca cola</option>
+                            <option value="3">7 Up</option>
+                            <option value="4">Pessi</option>
+                            <option value="5">Cam ép</option>
+                            <option value="6">Sting</option>
+                            <option value="7">Bò húc</option>
+                        </select>
+                    </form>
+                </div>
+                <div class="pay-fruit">
+                    <h3>FRUIT</h3>
+                    <select name="" id="fruit">
+                        <option value="0">none</option>
+                        <option value="1">Trái cây nhỏ</option>
+                        <option value="2">Trái cây lớn</option>
+                        <option value="3">bưởi</option>
+                    </select>
+                </div>
+
+                <div class="Spreadsheet">
+                    <p id="mone"></p>
+                    Money entry : <br>
+                    <input type="text" id="money"> <br>
+                    sum: <br>
+                    <input type="text" id="sum"> <br>
+                    bought: <br>
+                    <input type="text" id="bought">
+                    <br>
+                    return:
+                    <br>
+                    <input type="text" id="return"> <br> <br>
+                    <div class="control">
+                        <input type="button" onclick="buy()" value="BUY">
+                        <input type="button" onclick="cancel()" value="CANCEL">
+                    </div>
+                </div>
+        </div>
+    </div>
+</body>
+</html>
